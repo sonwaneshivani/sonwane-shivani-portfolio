@@ -73,7 +73,7 @@ const Hero = () => {
       {/* Scroll Down Button - Centered at bottom */}
       <a
         href="#about"
-        className="absolute bottom-20 left-1/2 transform -translate-x-1/2 inline-flex items-center gap-2 border border-rose-500 text-rose-500 px-4 py-2 rounded-full hover:bg-rose-500 hover:text-white transition duration-300"
+        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 inline-flex items-center gap-2 border border-rose-500 text-rose-500 px-4 py-2 rounded-full hover:bg-rose-500 hover:text-white transition duration-300"
       >
 
         <svg
