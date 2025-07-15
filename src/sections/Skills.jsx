@@ -23,7 +23,7 @@ import { GiArtificialIntelligence } from 'react-icons/gi';
 
 const SkillCard = ({ icon: Icon, label }) => (
   <motion.div
-    className="flex flex-col items-center gap-2 p-4 w-44 md:w-46 bg-gray-100 dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition"
+    className="flex flex-col items-center gap-2 p-4 w-full sm:w-[45%] md:w-44 bg-gray-100 dark:bg-gray-800 rounded-lg shadow hover:shadow-md transition"
     whileHover={{ scale: 1.05 }}
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
